@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Housewarming Invitation</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .invitation {
+            background-color: #ffffff;
+            border-radius: 15px;
+            padding: 2rem;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            margin: auto;
+        }
+        h1 {
+            color: #4a4a4a;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        h4 {
+            color: #4a4a4a;
+            font-size: 1.35rem;
+            margin-bottom: 0.5rem;
+        }
+        p {
+            color: #666666;
+            font-size: 1.1rem;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+        .highlight {
+            color: #3498db;
+            font-weight: bold;
+        }
+        .icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.75rem;
+            }
+            h4 {
+                font-size: 1.15rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+        } @media (min-width: 481px) {
+            .invitation {
+                border: 1px solid #ddd;
+                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="invitation">
+        <div class="icon">🏡</div>
+        <h4>Sebastian & Joanna's</h4>
+        <h1>Housewarming Party!</h1>
+        <p>Join us as we celebrate our new home!</p>
+        <p>
+            <span class="highlight">When:</span> <%= date %> <%= time %>
+        </p>
+        <p>
+            <span class="highlight">Where:</span> <%= location %>
+        </p>
+        <p>We can't wait to share our new space with you. Come enjoy good company, refreshments, and make yourself at home!</p>
+    </div>
+</body>
+</html>

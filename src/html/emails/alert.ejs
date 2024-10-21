@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%- include('./style/alert.html') %>
+</head>
+<body>
+  <div class="email-container">
+      <div class="header">
+          <h1>Alert</h1>
+      </div>
+      <div class="alert-message">
+          <h3><%= alert %></h3>
+          <p><%- body %></p>
+      </div>
+      <div class="footer">
+          <p>&copy; <%= company_name %>, All Rights Reserved</p>
+      </div>
+  </div>
+</body>
+</html>

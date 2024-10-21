@@ -1,0 +1,26 @@
+[
+  {
+    "email": "sebastiangadzinskiwork@gmail.com",
+    "emailConfirmed": true,
+    "fullName": "Admin",
+    "password": "",
+    "mfa": false,
+    "roles": ["user", "admin"],
+    "refreshToken": "",
+    "salt": "",
+    "createdBy": "seeder",
+    "updatedBy": "seeder"
+  },
+  {
+    "email": "joannarudowski8@gmail.com",
+    "emailConfirmed": true,
+    "fullName": "Admin",
+    "password": "",
+    "mfa": false,
+    "roles": ["user", "admin"],
+    "refreshToken": "",
+    "salt": "",
+    "createdBy": "seeder",
+    "updatedBy": "seeder"
+  }
+]

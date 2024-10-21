@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%- include('./style/normal.html') %>
+</head>
+<body>
+  <div class="email-container">
+      <div class="header">
+          <h1><%= title %></h1>
+      </div>
+      <div class="message">
+          <h3><%= header %></h3>
+          <p><%= body %></p>
+          <a href="<%= btn_link %>" class="button"><%= btn_message %></a>
+      </div>
+      <div class="footer">
+          <p>&copy; <%= company_name %>, All Rights Reserved</p>
+      </div>
+  </div>
+</body>
+</html>

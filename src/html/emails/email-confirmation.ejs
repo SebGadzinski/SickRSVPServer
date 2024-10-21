@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%- include('./style/normal.html') %>
+</head>
+<body>
+  <div class="email-container">
+    <div class="header">
+      <h1><%= header_message %></h1>
+    </div>
+    <div class="message">
+      <p>Welcome to <%= company_name %>!</p>
+      <p>We're excited to have you with us. To get started, please confirm your email address by clicking the button below.</p>
+      <a href="<%= btn_link %>" class="button"><%= btn_message %></a>
+    </div>
+    <div class="footer">
+      <p>&copy; <%= company_name %></p>
+    </div>
+  </div>
+</body>
+</html>
